@@ -2,24 +2,24 @@ pipeline {
     agent any
 
     stages {
-        stage('Printing Hello world on jenkins') {
+        stage('colour of the book') {
             steps {
-                echo 'Hello World'
+                echo 'black'
             }
         }
-        stage('Printing Hi on jenkins') {
+        stage('colour of the rainbow') {
             steps {
-                echo 'HI'
+                echo 'vibgyor'
             }
         }
-        stage('STAGE3') {
+        stage('colour of rice') {
             steps {
-                echo 'HI'
+                echo 'white'
             }
         }
-        stage('STAGE4') {
+        stage('colour of sun') {
             steps {
-                echo 'HI'
+                echo 'Orange'
             }
         }
     }
